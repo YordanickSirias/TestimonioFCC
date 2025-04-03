@@ -26,6 +26,15 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     minHeight: 200,
     backgroundColor: "#f5f5f5",
+    shadowColor: "#000",
+shadowOffset: {
+	width: 0,
+	height: 12,
+},
+shadowOpacity: 0.58,
+shadowRadius: 16.00,
+
+elevation: 24,
   },
 
   imagencontenedor: {
@@ -55,6 +64,7 @@ const styles = StyleSheet.create({
   testimonio: {
     fontSize: 14,
     alignSelf: "center",
+    justifyContent:"center",
   },
 });
 
